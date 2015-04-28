@@ -1,0 +1,61 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap {
+	width: 960px;
+	max-width: 96%;
+	margin: 50px auto;
+	overflow: auto;
+}
+
+.garage {
+	
+}
+
+.valet {
+	
+}
+.valet > div {
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	padding: 30px 5%;
+}
+.valet form {
+	margin: 0 0 30px;
+}
+.valet input[type=text] {
+	width: 90%;
+	font-size: inherit;
+	padding: 5px 7px;
+	margin: 0 0 15px;
+}
+.valet input[type=submit] {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	background: #000;
+	font-size: inherit;
+	padding: 10px;
+}
+.valet .tickets {
+	
+}
+.valet .tickets ul,
+.valet .returns ul {
+	list-style-type: none;
+}
+.valet .tickets ul li,
+.valet .returns ul li {
+	display: none;
+	margin: 10px 0;
+}
+.valet .ticketID {
+	padding: 3px 15px 0;
+	border: 1px solid;
+	border-left-width: 5px;
+}
